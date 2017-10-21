@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  <ViewStub
+        android:id="@+id/viewStub"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/vsHeader"
+        android:layout="@layout/header" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/main_btn_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_calendar_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Calendar" />
+
+        <Button
+            android:id="@+id/main_btn_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_chat_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Chat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_btn_workshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_calendar_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Workshop" />
+
+        <Button
+            android:id="@+id/main_btn_resource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_chat_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Chat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_btn_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_course_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Courses" />
+
+        <Button
+            android:id="@+id/main_btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android_setting_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/Setting" />
+    </LinearLayout>
+    </LinearLayout>
