@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CareerLight-Android-Project.iml" filepath="$PROJECT_DIR$/CareerLight-Android-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CareerLight.iml" filepath="$PROJECT_DIR$/CareerLight.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
