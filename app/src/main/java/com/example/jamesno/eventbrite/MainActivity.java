@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.facebook.FacebookSdk;
+
 public class MainActivity extends DashboardActivity {
 
 // hi
