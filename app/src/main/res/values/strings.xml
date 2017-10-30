@@ -6,4 +6,9 @@
     <string name="Resource">Resource</string>
     <string name="Courses">Courses</string>
     <string name="Setting">Setting</string>
+
+    // Facebook Account Kit
+    <string name="facebook_app_id">140566639902186</string>
+    <string name="account_kit_client_token">37da2a31aa7fe59457cca0655f23de70</string>
+    <string name="ak_login_protocol_scheme">akFACEBOOK_APP_ID</string>
 </resources>

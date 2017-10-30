@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.facebook.android:account-kit-sdk-4.27.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.27.0.aar/b138b0ffe6264dbc8b2cd94605db45b2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.27.0.aar/b138b0ffe6264dbc8b2cd94605db45b2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
